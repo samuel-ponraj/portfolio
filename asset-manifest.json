@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "//samuel-ponraj.github.io/portfolio/static/css/main.f7958af1.css",
-    "main.js": "//samuel-ponraj.github.io/portfolio/static/js/main.30bf3ce6.js",
+    "main.js": "//samuel-ponraj.github.io/portfolio/static/js/main.f26692b6.js",
     "static/media/image_4.jpg": "//samuel-ponraj.github.io/portfolio/static/media/image_4.fd971e87957fafd0c243.jpg",
     "static/media/image_1.jpg": "//samuel-ponraj.github.io/portfolio/static/media/image_1.4c1c9b8609cdf3e04aba.jpg",
     "static/media/aboutpic.jpg": "//samuel-ponraj.github.io/portfolio/static/media/aboutpic.dc4451ea71da3e81cf9c.jpg",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.f7958af1.css",
-    "static/js/main.30bf3ce6.js"
+    "static/js/main.f26692b6.js"
   ]
 }
