@@ -1,0 +1,170 @@
+.home{
+  height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 999999999;
+  }
+  
+  .logopic{
+    width: 300px;
+    height: 30px;
+    margin-left: 150px;
+  }
+  
+  .navbar ul{
+    display: flex;
+    align-items: center;
+    padding-right: 150px;
+  }
+  
+  .navbar ul li{
+    padding-left: 40px;
+    list-style-type: none;
+  }
+
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    position: relative; /* Ensure the pseudo-element is positioned relative to the link */
+    padding-bottom: 8px; /* Adjust this to add some space between text and underline */
+  }
+
+  .navbar ul li a::after {
+    content: ''; /* Required to display the pseudo-element */
+    position: absolute;
+    left: 0;
+    bottom: 0; /* Align the underline at the bottom */
+    width: 0; /* Start with zero width for the transition effect */
+    height: 2px; /* Thickness of the underline */
+    background-color: #ff004f; /* Underline color */
+    transition: width 0.3s ease; /* Smooth transition effect for width */
+  }
+  
+  .navbar ul li a:hover::after {
+    width: 100%; /* Expand the underline to full width on hover */
+  }
+
+  .menu-icon, .close-icon{
+    display: none;
+  }
+
+.name-details{
+  position: absolute;
+  top: 35%;
+    margin-left: 12%;
+
+}
+.name-details p{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.name-details h1{
+    margin: 20px 0;
+    font-size: 60px;
+}
+
+.name-details h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+      width: 100%;
+      padding: 10px 20px;
+      justify-content: space-between;
+    }
+
+    .logopic{
+      width: 150px;
+      height: 25px;
+      margin-left: 0;
+    }
+  
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      position: fixed;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 200px;
+      background-color: rgba(255, 0, 0, 0.8);
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in-out;
+      padding-top: 60px;
+      padding-right: 0;
+      z-index: 1000;
+    }
+  
+    .navbar ul.open {
+      transform: translateX(0%);
+      
+    }
+    
+  
+
+    .close-icon {
+      display: block  ;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      cursor: pointer;
+      color: white;
+      font-size: 24px;
+    }
+  
+    .navbar ul li {
+      padding: 15px 0;
+      text-align: center;
+    }
+
+ 
+    .navbar ul li a {
+      color: white;
+      font-size: 20px;
+    }
+  
+    .menu-icon {
+      display: flex;
+      align-items: center;
+    }
+    
+    .name-details{
+      margin-left: 5%; 
+      top: 27%;
+      width: 50%;
+    }
+
+    .surname{
+      margin-left: 80px;
+    }
+    
+    .name-details p{
+      font-size: 15px;
+    }
+
+    .name-details h1{
+      font-size: 30px;
+    }
+
+    .name-details h3{
+      font-size: 15px;
+    }
+}
+
+

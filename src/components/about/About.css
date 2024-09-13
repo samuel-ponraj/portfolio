@@ -1,0 +1,127 @@
+.about-container{
+    width: 100%;
+    padding: 100px 30px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.about{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.about-left{
+    flex-basis: 35%;
+}
+
+.about-left img{
+    width: 380px;
+    height: 420px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.23);
+}
+
+.about-right{
+    flex-basis: 60%;
+}
+
+
+.about-right p{
+    line-height: 25px;
+}
+
+.tabs{
+    margin-top: 30px;
+    
+}
+
+.tab{
+    padding: 10px 20px 10px 0;
+    margin-right: 15px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.tabpanels{
+    width: 80%;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.skills{
+    display: flex;
+    gap: 50px;
+}
+
+.skills1 li{
+    margin: 8px 0 8px 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.tabpanel3 li{
+    list-style: none ;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tabpanel3 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .about-left img {
+        display: none;
+      }
+      .about-container{
+        padding: 80px 30px 0 30px;
+      }
+
+    .about-right{
+        flex-basis: 100%;
+    }
+
+    .tablist{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tab{
+        font-size: 10px;
+    }
+
+    .tabs{
+        font-size: 10px;
+    }
+
+    .skills{
+        gap: 10px;
+    }
+
+    .tabpanels{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+  }
+  
