@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "//samuel-ponraj.github.io/portfolio/static/css/main.f7958af1.css",
-    "main.js": "//samuel-ponraj.github.io/portfolio/static/js/main.f26692b6.js",
-    "static/media/image_4.jpg": "//samuel-ponraj.github.io/portfolio/static/media/image_4.fd971e87957fafd0c243.jpg",
-    "static/media/image_1.jpg": "//samuel-ponraj.github.io/portfolio/static/media/image_1.4c1c9b8609cdf3e04aba.jpg",
-    "static/media/aboutpic.jpg": "//samuel-ponraj.github.io/portfolio/static/media/aboutpic.dc4451ea71da3e81cf9c.jpg",
-    "static/media/image_3.jpg": "//samuel-ponraj.github.io/portfolio/static/media/image_3.74d89ebd443003339460.jpg",
-    "static/media/image_2.jpg": "//samuel-ponraj.github.io/portfolio/static/media/image_2.05a54026c5ec4c3a8651.jpg",
-    "static/media/bg.jpg": "//samuel-ponraj.github.io/portfolio/static/media/bg.682f367554ddfd8c4ecb.jpg",
-    "static/media/image_5.jpg": "//samuel-ponraj.github.io/portfolio/static/media/image_5.55a73b43e62b0faeccff.jpg",
-    "static/media/springboot.png": "//samuel-ponraj.github.io/portfolio/static/media/springboot.602648b2548fcfa22faa.png",
-    "static/media/postgre.png": "//samuel-ponraj.github.io/portfolio/static/media/postgre.a7fa39912c91e079e90b.png",
-    "static/media/splogo.png": "//samuel-ponraj.github.io/portfolio/static/media/splogo.70cbb63de8bf4ff8bfbb.png",
-    "static/media/react.png": "//samuel-ponraj.github.io/portfolio/static/media/react.86c8d9eba03e29814d2a.png",
-    "static/media/java.png": "//samuel-ponraj.github.io/portfolio/static/media/java.ddf8676bd569fe01ab44.png",
-    "static/media/mysql.png": "//samuel-ponraj.github.io/portfolio/static/media/mysql.7d8d571e5629923eaf74.png",
-    "static/media/bg-small.jpg": "//samuel-ponraj.github.io/portfolio/static/media/bg-small.6ffcdc4ea9bb6df6953a.jpg",
-    "static/media/css.png": "//samuel-ponraj.github.io/portfolio/static/media/css.d1a3c1e59ca82dbdf815.png",
-    "static/media/html5.png": "//samuel-ponraj.github.io/portfolio/static/media/html5.2c6a71b184b518b01b9a.png",
-    "static/media/js.png": "//samuel-ponraj.github.io/portfolio/static/media/js.3dfb665e058d08c99f28.png",
-    "index.html": "//samuel-ponraj.github.io/portfolio/index.html"
+    "main.css": "/portfolio/static/css/main.5afaa240.css",
+    "main.js": "/portfolio/static/js/main.f65e6da9.js",
+    "static/media/image_4.jpg": "/portfolio/static/media/image_4.fd971e87957fafd0c243.jpg",
+    "static/media/image_1.jpg": "/portfolio/static/media/image_1.4c1c9b8609cdf3e04aba.jpg",
+    "static/media/aboutpic.jpg": "/portfolio/static/media/aboutpic.dc4451ea71da3e81cf9c.jpg",
+    "static/media/image_3.jpg": "/portfolio/static/media/image_3.74d89ebd443003339460.jpg",
+    "static/media/image_2.jpg": "/portfolio/static/media/image_2.05a54026c5ec4c3a8651.jpg",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.682f367554ddfd8c4ecb.jpg",
+    "static/media/image_5.jpg": "/portfolio/static/media/image_5.55a73b43e62b0faeccff.jpg",
+    "static/media/springboot.png": "/portfolio/static/media/springboot.602648b2548fcfa22faa.png",
+    "static/media/postgre.png": "/portfolio/static/media/postgre.a7fa39912c91e079e90b.png",
+    "static/media/splogo.png": "/portfolio/static/media/splogo.70cbb63de8bf4ff8bfbb.png",
+    "static/media/react.png": "/portfolio/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/java.png": "/portfolio/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.7d8d571e5629923eaf74.png",
+    "static/media/bg-small.jpg": "/portfolio/static/media/bg-small.6ffcdc4ea9bb6df6953a.jpg",
+    "static/media/css.png": "/portfolio/static/media/css.d1a3c1e59ca82dbdf815.png",
+    "static/media/html5.png": "/portfolio/static/media/html5.2c6a71b184b518b01b9a.png",
+    "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.f7958af1.css",
-    "static/js/main.f26692b6.js"
+    "static/css/main.5afaa240.css",
+    "static/js/main.f65e6da9.js"
   ]
 }
