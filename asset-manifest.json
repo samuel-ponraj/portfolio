@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.92ea3ecb.css",
+    "main.css": "/portfolio/static/css/main.a2e4340c.css",
     "main.js": "/portfolio/static/js/main.1ededded.js",
     "static/media/weather.jpg": "/portfolio/static/media/weather.fd971e87957fafd0c243.jpg",
     "static/media/kings.jpg": "/portfolio/static/media/kings.4c1c9b8609cdf3e04aba.jpg",
@@ -23,7 +23,7 @@
     "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.92ea3ecb.css",
+    "static/css/main.a2e4340c.css",
     "static/js/main.1ededded.js"
   ]
 }
