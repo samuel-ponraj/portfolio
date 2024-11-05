@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.90e745d7.css",
+    "main.css": "/portfolio/static/css/main.eddea9a0.css",
     "main.js": "/portfolio/static/js/main.c697d316.js",
     "static/media/weather.jpg": "/portfolio/static/media/weather.fd971e87957fafd0c243.jpg",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.b848c6de94cd5a8c0d50.jpg",
     "static/media/kings.jpg": "/portfolio/static/media/kings.4c1c9b8609cdf3e04aba.jpg",
     "static/media/aboutpic.jpg": "/portfolio/static/media/aboutpic.dc4451ea71da3e81cf9c.jpg",
     "static/media/vote.jpg": "/portfolio/static/media/vote.74d89ebd443003339460.jpg",
     "static/media/medicmode.png": "/portfolio/static/media/medicmode.911330ec45bddbb08650.png",
     "static/media/checklist.jpg": "/portfolio/static/media/checklist.15302927b45c0fe3c199.jpg",
+    "static/media/bg-small.jpeg": "/portfolio/static/media/bg-small.815a2544d322986588af.jpeg",
     "static/media/usercard.jpg": "/portfolio/static/media/usercard.05a54026c5ec4c3a8651.jpg",
-    "static/media/bg.jpg": "/portfolio/static/media/bg.682f367554ddfd8c4ecb.jpg",
     "static/media/password.jpg": "/portfolio/static/media/password.1a621d4aa8dd845c55f8.jpg",
     "static/media/calc.jpg": "/portfolio/static/media/calc.55a73b43e62b0faeccff.jpg",
     "static/media/springboot.png": "/portfolio/static/media/springboot.602648b2548fcfa22faa.png",
@@ -18,14 +19,13 @@
     "static/media/react.png": "/portfolio/static/media/react.86c8d9eba03e29814d2a.png",
     "static/media/java.png": "/portfolio/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.7d8d571e5629923eaf74.png",
-    "static/media/bg-small.jpg": "/portfolio/static/media/bg-small.6ffcdc4ea9bb6df6953a.jpg",
     "static/media/css.png": "/portfolio/static/media/css.d1a3c1e59ca82dbdf815.png",
     "static/media/html5.png": "/portfolio/static/media/html5.2c6a71b184b518b01b9a.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.90e745d7.css",
+    "static/css/main.eddea9a0.css",
     "static/js/main.c697d316.js"
   ]
 }
