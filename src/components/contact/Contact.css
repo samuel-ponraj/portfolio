@@ -3,12 +3,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 0 0 0;
+    padding: 100px 0 100px 0;
+    overflow: hidden;
 }
 
 .contact{
     width: 1200px;
     display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 .contact-left{
@@ -98,12 +101,17 @@ form .btn2{
     .contact{
         flex-direction: column;
         padding: 30px;
+        
     }
 
     .contact-left {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .contact-container{
+        padding-top: 20px;
     }
 
 }

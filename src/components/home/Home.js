@@ -1,8 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Home.css'
-import MenuIcon from '@mui/icons-material/Menu'; // Import the Menu icon from Material-UI
+import MenuIcon from '@mui/icons-material/Menu'; 
 import CloseIcon from '@mui/icons-material/Close';
-import splogo from '../../assets/splogo.png'
+import splogo from '../../assets/splogo.png';
+// import LightModeIcon from '@mui/icons-material/LightMode';
+// import DarkModeIcon from '@mui/icons-material/DarkMode';
+
 
 const Home = () => {
 
@@ -48,12 +51,21 @@ const Home = () => {
               <li><a href="#about" onClick={() => {toggleMenu() ; setIsOpen (!isOpen)}}>About</a></li>
               <li><a href="#projects" onClick={() => {toggleMenu() ; setIsOpen (!isOpen)}}>Projects</a></li>
               <li><a href="#contact" onClick={() => {toggleMenu() ; setIsOpen (!isOpen)}}>Contact</a></li>
+             
             </ul>
+            
           </div>
-          <div className="name-details">
+          <div className="name-details" >
                 <p>Hi,</p>
-                <h1>I'm <span style={{color:'#ff004f'}}>Samuel</span> <span className='surname'>Ponraj</span></h1>
-                <h3>Web Developer</h3>
+                <h1>I'm Samuel Ponraj</h1>
+                <h3>
+					<span></span>
+                  {/* <ul className='role'>
+				  	<li><span data-text="Developer">Developer</span></li>
+					<li><span data-text="Web Developer">Web Developer</span></li>
+					<li><span data-text="Front-End Developer">Front-End Developer</span></li>
+                  </ul> */}
+                </h3>
           </div>
         </div>
   )

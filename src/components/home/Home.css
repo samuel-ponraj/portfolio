@@ -56,12 +56,27 @@
     display: none;
   }
 
-.name-details{
-  position: absolute;
-  top: 35%;
-    margin-left: 12%;
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
 
-}
+  .name-details {
+    position: absolute;
+    top: 35%;
+    margin-left: 12%;
+    opacity: 1; /* Initially invisible */
+    transform: scale(0); /* Initially scaled down */
+    animation: zoomIn 2s ease forwards;  /* Smooth transition for all properties */
+  }
+  
+
 .name-details p{
     margin: 20px 0;
     font-size: 25px;
@@ -72,10 +87,67 @@
     font-size: 60px;
 }
 
-.name-details h3{
-    margin: 20px 0;
-    font-size: 30px;
+.name-details h3 {
+  margin: 20px 0;
+  font-size: 30px;
 }
+
+.name-details h3 span{
+  position: relative;
+}
+
+.name-details h3 span::before{
+  content: "Web Developer";
+  color: #ff004f;
+  animation: words 20s infinite;
+}
+
+.name-details h3 span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: black;
+  border-left: 2px solid #ff004f;
+  right: -8px;
+  animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to{
+      border-left: 2px solid #ff004f;
+  }
+}
+
+@keyframes words {
+  0%,20%{
+      content: "React Js Developer";
+  }
+  21%,40%{
+      content: "Front-End Developer";
+  }
+  41%,60%{
+      content: "Web Developer";
+  }
+  61%,80%{
+      content: "React Js Developer";
+  }
+  81%,100%{
+      content: "Front-End Developer";
+  }
+}
+
+@keyframes typing {
+  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+      width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+      width: calc(100% + 8px);
+  }
+}
+
+
+
 
 @media (max-width: 768px) {
 
@@ -148,10 +220,6 @@
       margin-left: 5%; 
       top: 27%;
       width: 50%;
-    }
-
-    .surname{
-      margin-left: 80px;
     }
     
     .name-details p{

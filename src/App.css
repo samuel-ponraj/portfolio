@@ -24,7 +24,7 @@
 
   @media  (max-width: 768px) {
     .background {
-        background-image: url('./assets/bg-small.jpg');
+        background-image: url('./assets/bg-small.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; /* Adjusts the position of the image */

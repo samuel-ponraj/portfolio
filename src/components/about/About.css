@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 }
 
 .about{
@@ -20,8 +21,8 @@
 }
 
 .about-left img{
-    width: 380px;
-    height: 420px;
+    width: 400px;
+    height: 450px;
     border: 2px solid gray;
     border-radius: 20px;
     background-color: rgba(128, 128, 128, 0.23);
