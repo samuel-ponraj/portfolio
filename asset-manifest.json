@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.14a7c7d8.css",
-    "main.js": "/portfolio/static/js/main.6efc4fc7.js",
+    "main.js": "/portfolio/static/js/main.4ad5a3cc.js",
     "static/media/kings.png": "/portfolio/static/media/kings.db2ef1d408ff988ee1b4.png",
     "static/media/weather.jpg": "/portfolio/static/media/weather.fd971e87957fafd0c243.jpg",
     "static/media/kingz.png": "/portfolio/static/media/kingz.586fbdafc3b119d6b818.png",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.14a7c7d8.css",
-    "static/js/main.6efc4fc7.js"
+    "static/js/main.4ad5a3cc.js"
   ]
 }
