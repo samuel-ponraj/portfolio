@@ -66,7 +66,7 @@ const Contact = () => {
               <a href="https://www.instagram.com/samuel_ponraj/" target="_blank" rel="noopener noreferrer" className='insta'><InstagramIcon /></a>
               
             </div>
-            <a href="https://drive.google.com/file/d/1w9-LcQYhd3C4szo5lwiNPv4tx7RPj_pm/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='btn'>Download Resume</a>
+            <a href="https://drive.google.com/file/d/1yVfurGsSV_uj-pOhKMqXk2NS_m-6Gaz-/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='btn'>Download Resume</a>
           </div>
           <div className="contact-right" data-aos="fade-left">
             <form onSubmit={handleFormSubmit}>
