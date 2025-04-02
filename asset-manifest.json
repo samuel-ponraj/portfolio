@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fbeffffb.css",
+    "main.css": "/portfolio/static/css/main.384bca09.css",
     "main.js": "/portfolio/static/js/main.5fd1be6e.js",
     "static/media/kp.png": "/portfolio/static/media/kp.58208ee63ddaec21cee7.png",
     "static/media/kds.png": "/portfolio/static/media/kds.84d9fa9b6e540e76f7f3.png",
@@ -27,7 +27,7 @@
     "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.fbeffffb.css",
+    "static/css/main.384bca09.css",
     "static/js/main.5fd1be6e.js"
   ]
 }
