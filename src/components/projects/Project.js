@@ -21,10 +21,10 @@ const Project = () => {
       {/* My Projects Section */}
       <div className="projects">
         <h1 style={{ fontSize: '45px', marginBottom: '50px' }}>My Projects</h1>
-        <div className="project-list" >
+        <div className="project-list live-projects" >
           {/* Always show the first two projects */}
-          {projects.slice(0, 3).map((project) => (
-            <div className="project" key={project.id} data-aos="fade-up"> 
+          {projects.slice(0, 4).map((project) => (
+            <div className="project live-project" key={project.id} data-aos="fade-up"> 
               <img src={project.img} alt={project.name} />
               <div className="layer">
                 <h3>{project.name}</h3>
