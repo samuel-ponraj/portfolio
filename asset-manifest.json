@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.384bca09.css",
-    "main.js": "/portfolio/static/js/main.5fd1be6e.js",
+    "main.css": "/portfolio/static/css/main.b206e9df.css",
+    "main.js": "/portfolio/static/js/main.eebf2d3f.js",
     "static/media/kp.png": "/portfolio/static/media/kp.58208ee63ddaec21cee7.png",
     "static/media/kds.png": "/portfolio/static/media/kds.84d9fa9b6e540e76f7f3.png",
     "static/media/weather.jpg": "/portfolio/static/media/weather.fd971e87957fafd0c243.jpg",
     "static/media/medicmode.png": "/portfolio/static/media/medicmode.e43a50fddd5e2b137afd.png",
     "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.1eb01154ee0f6fa56cbc.png",
     "static/media/bg.jpg": "/portfolio/static/media/bg.b848c6de94cd5a8c0d50.jpg",
+    "static/media/zionhealthcare.jpg": "/portfolio/static/media/zionhealthcare.eaa82f88ba5c6e0c844c.jpg",
     "static/media/aboutpic.jpg": "/portfolio/static/media/aboutpic.dc4451ea71da3e81cf9c.jpg",
     "static/media/vote.jpg": "/portfolio/static/media/vote.74d89ebd443003339460.jpg",
     "static/media/checklist.jpg": "/portfolio/static/media/checklist.15302927b45c0fe3c199.jpg",
@@ -27,7 +28,7 @@
     "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.384bca09.css",
-    "static/js/main.5fd1be6e.js"
+    "static/css/main.b206e9df.css",
+    "static/js/main.eebf2d3f.js"
   ]
 }
