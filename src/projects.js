@@ -38,7 +38,7 @@ const projects = [
         img: zionhealthcare, 
         name: "Zion Health Care",
         description: "A responsive medical website created with Next.js, featuring comprehensive healthcare services and information.",
-        link: "https://zionhealthcare.vercel.app/"
+        link: "https://zionhealthcare.in/"
     },
     {   
         id: 5,

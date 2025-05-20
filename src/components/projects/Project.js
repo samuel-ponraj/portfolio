@@ -45,7 +45,7 @@ const Project = () => {
         <h1 style={{ fontSize: '45px', marginBottom: '50px', marginTop:'90px' }}>Mini Projects</h1>
         <div className="project-list" >
           {/* Show the first three micro projects */}
-          {projects.slice(3, 6).map((project) => (
+          {projects.slice(5, 8).map((project) => (
             <div className="project" key={project.id} data-aos="fade-up"> 
               <img src={project.img} alt={project.name} />
               <div className="layer">
@@ -64,7 +64,7 @@ const Project = () => {
        
         {showMoreMicroProjects && (
           <div className="project-list" data-aos="fade-up">
-            {projects.slice(6).map((project) => (
+            {projects.slice(8).map((project) => (
               <div className="project" key={project.id}> 
                 <img src={project.img} alt={project.name} />
                 <div className="layer">
