@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b206e9df.css",
-    "main.js": "/portfolio/static/js/main.b7d6e848.js",
+    "main.css": "/portfolio/static/css/main.c803db61.css",
+    "main.js": "/portfolio/static/js/main.d9c627a9.js",
     "static/media/kp.png": "/portfolio/static/media/kp.58208ee63ddaec21cee7.png",
     "static/media/kds.png": "/portfolio/static/media/kds.84d9fa9b6e540e76f7f3.png",
     "static/media/weather.jpg": "/portfolio/static/media/weather.fd971e87957fafd0c243.jpg",
@@ -15,11 +15,11 @@
     "static/media/bg-small.jpeg": "/portfolio/static/media/bg-small.815a2544d322986588af.jpeg",
     "static/media/usercard.jpg": "/portfolio/static/media/usercard.05a54026c5ec4c3a8651.jpg",
     "static/media/password.jpg": "/portfolio/static/media/password.1a621d4aa8dd845c55f8.jpg",
-    "static/media/calc.jpg": "/portfolio/static/media/calc.55a73b43e62b0faeccff.jpg",
     "static/media/springboot.png": "/portfolio/static/media/springboot.602648b2548fcfa22faa.png",
     "static/media/postgre.png": "/portfolio/static/media/postgre.a7fa39912c91e079e90b.png",
     "static/media/splogo.png": "/portfolio/static/media/splogo.70cbb63de8bf4ff8bfbb.png",
     "static/media/react.png": "/portfolio/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/calc.jpg": "/portfolio/static/media/calc.1891c1deb4f394fc7fa3.jpg",
     "static/media/java.png": "/portfolio/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.7d8d571e5629923eaf74.png",
     "static/media/css.png": "/portfolio/static/media/css.d1a3c1e59ca82dbdf815.png",
@@ -28,7 +28,7 @@
     "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.b206e9df.css",
-    "static/js/main.b7d6e848.js"
+    "static/css/main.c803db61.css",
+    "static/js/main.d9c627a9.js"
   ]
 }
