@@ -8,23 +8,27 @@ import 'aos/dist/aos.css';
 const Project = () => {
   const [showMoreMicroProjects, setShowMoreMicroProjects] = useState(false);
 
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   const showRemainingMicroProjects = () => {
     setShowMoreMicroProjects(true);
   };
 
-   useEffect(() => {
-      Aos.init({ duration: 1000 });
-    }, []);
+  const liveProjects = projects.slice(0, 4);
+  const microProjectsInitial = projects.slice(4, 7);
+  const microProjectsRemaining = projects.slice(7); // remaining after show more
 
   return (
     <div id='projects' className="project-container">
-      {/* My Projects Section */}
+
+      {/* Live Projects */}
       <div className="projects">
         <h1 style={{ fontSize: '45px', marginBottom: '50px' }}>My Projects</h1>
-        <div className="project-list live-projects" >
-          {/* Always show the first two projects */}
-          {projects.slice(0, 4).map((project) => (
-            <div className="project live-project" key={project.id} data-aos="fade-up"> 
+        <div className="project-list live-projects">
+          {liveProjects.map((project) => (
+            <div className="project live-project" key={project.id} data-aos="fade-up">
               <img src={project.img} alt={project.name} />
               <div className="layer">
                 <h3>{project.name}</h3>
@@ -40,13 +44,13 @@ const Project = () => {
         </div>
       </div>
 
-      {/* Micro Projects Section */}
+      {/* Micro Projects */}
       <div className="projects">
-        <h1 style={{ fontSize: '45px', marginBottom: '50px', marginTop:'90px' }}>Mini Projects</h1>
-        <div className="project-list" >
-          {/* Show the first three micro projects */}
-          {projects.slice(5, 8).map((project) => (
-            <div className="project" key={project.id} data-aos="fade-up"> 
+        <h1 style={{ fontSize: '45px', marginBottom: '50px', marginTop: '90px' }}>Mini Projects</h1>
+
+        <div className="project-list">
+          {microProjectsInitial.map((project) => (
+            <div className="project" key={project.id} data-aos="fade-up">
               <img src={project.img} alt={project.name} />
               <div className="layer">
                 <h3>{project.name}</h3>
@@ -61,11 +65,11 @@ const Project = () => {
           ))}
         </div>
 
-       
+        {/* Show More Projects */}
         {showMoreMicroProjects && (
-          <div className="project-list" data-aos="fade-up">
-            {projects.slice(8).map((project) => (
-              <div className="project" key={project.id}> 
+          <div className="project-list">
+            {microProjectsRemaining.map((project) => (
+              <div className="project" key={project.id} data-aos="fade-up">
                 <img src={project.img} alt={project.name} />
                 <div className="layer">
                   <h3>{project.name}</h3>
