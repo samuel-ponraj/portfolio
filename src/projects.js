@@ -31,7 +31,7 @@ const projects = [
         img: kingz, 
         name: "Kingz Digital Solutions",
         description: "A responsive static website built with React.js, showcasing the company's web development services.",
-        link: "https://kingzdigitalsolutions.vercel.app/"
+        link: "https://kingzdigitalsolutions.in/"
     },
     {   
         id: 4,
