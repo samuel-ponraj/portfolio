@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3d38f3c4.css",
-    "main.js": "/portfolio/static/js/main.7c7e86a4.js",
+    "main.js": "/portfolio/static/js/main.9de21e16.js",
     "static/media/kp.png": "/portfolio/static/media/kp.58208ee63ddaec21cee7.png",
     "static/media/sk.png": "/portfolio/static/media/sk.dbf26bf0e221c76b84af.png",
     "static/media/kds.png": "/portfolio/static/media/kds.84d9fa9b6e540e76f7f3.png",
     "static/media/weather.jpg": "/portfolio/static/media/weather.fd971e87957fafd0c243.jpg",
     "static/media/medicmode.png": "/portfolio/static/media/medicmode.e43a50fddd5e2b137afd.png",
+    "static/media/jobportal.png": "/portfolio/static/media/jobportal.2508d1947ddda9ea7d74.png",
     "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.1eb01154ee0f6fa56cbc.png",
     "static/media/bg.jpg": "/portfolio/static/media/bg.b848c6de94cd5a8c0d50.jpg",
     "static/media/zionhealthcare.jpg": "/portfolio/static/media/zionhealthcare.eaa82f88ba5c6e0c844c.jpg",
@@ -30,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.3d38f3c4.css",
-    "static/js/main.7c7e86a4.js"
+    "static/js/main.9de21e16.js"
   ]
 }
